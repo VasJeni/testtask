@@ -8,7 +8,7 @@
 }
 
 .card a {
-    color:#000;
+   /* color:#000;*/
     text-decoration:none;
 }
 
@@ -154,7 +154,6 @@
 }
 
 .card__main-link-bottom:hover,
-.card__main-link-middle:hover,
 .card__main-link-top:hover {
     text-decoration:none;
     color:inherit;
@@ -163,7 +162,7 @@
 .card__main-link-top {
     font-size:12px;
     text-transform:uppercase;
-    color:#606770;
+    color:#000000;
 }
 
 .card__main-link-middle {
@@ -173,7 +172,7 @@
 
 .card__main-link-bottom {
     font-size:14px;
-    color:#606770;
+    color: #000000;
     margin:3px 0 0;
 }
 
@@ -189,6 +188,10 @@
     margin:10px 0 0;
     padding:0 0 6px;
 }
+.card__stats a{
+    color: #000000;
+}
+
 
 .card__likes img {
     width:16px;
@@ -228,8 +231,11 @@
     display:block;
     font-size:13px;
     line-height:1.35;
-    color:#365899;
+    color: #000000;
     padding:12px 0 4px;
+}
+.card__see-more-link:hover{
+    color: #000000;
 }
 
 .card__comment {
@@ -326,7 +332,7 @@
 }
 
 .card__comment-time {
-    color:#616770;
+    color:#616770 !important;
 }
 
 .card__comment-avatar img,
@@ -339,14 +345,20 @@
 .card__comment-author,
 .card__main-link-middle,
 .card__main-title {
-    color: #365899;
+    color: #365899 !important;
+}
+
+.card__like,
+.card__share,
+.card__commentbtn {
+    color: #000;
 }
 
 .card__comment-author:hover,
 .card__comment-footer a:hover,
 .card__shares:hover,
 .card__likes:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
