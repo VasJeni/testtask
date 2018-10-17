@@ -1,33 +1,3 @@
-<!--
-<?php
-//get info from url variables;
-$lander_id = $_GET['lander_id'];
-$vol = $_GET['vol'];
-$cep = $_GET['cep'];
-
- //if lander_id tag missing use this token as offer name;
-if ($lander_id =="") {
-$lander_id = "c67eb113-9184-4e63-b080-9d57230a5190";
-} 
-
-//voluum link
-$link = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GET['account'] . "&campaign=" . $_GET['campaign'] . "&adset=" . $_GET['adset'] . "&ad=" . $_GET['ad'] . "&lander=" . $_GET['lander'] . "&offername=" . $_GET['offername'];
-
-// if offername is blank or "{offer.name}", use default offername, otherwise - get from url variables;
-$offername = $_GET['offername'];
-if ($offername=="" || $offername=="{offer.name}") {
-//default offername goes here:;
-$offername = "Yukon Gold Casino";
-} 
-
-//back-buttton
-$back-button = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GET['account'] . "&campaign=back-button" . "&adset=" . $_GET['adset'] . "&ad=" . $_GET['ad'] . "&lander=" . $_GET['lander'] . "&offername=" . $_GET['offername'];
-
-
-?>
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
