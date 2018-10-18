@@ -1,3 +1,30 @@
+<?php
+//get info from url variables;
+$lander_id = $_GET['lander_id'];
+$vol = $_GET['vol'];
+$cep = $_GET['cep'];
+
+ //if lander_id tag missing use this token as offer name;
+if ($lander_id =="") {
+$lander_id = "c67eb113-9184-4e63-b080-9d57230a5190";
+}
+
+//voluum link
+$link = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GET['account'] . "&campaign=" . $_GET['campaign'] . "&adset=" . $_GET['adset'] . "&ad=" . $_GET['ad'] . "&lander=" . $_GET['lander'] . "&offername=" . $_GET['offername'];
+
+// if offername is blank or "{offer.name}", use default offername, otherwise - get from url variables;
+$offername = $_GET['offername'];
+if ($offername=="" || $offername=="{offer.name}") {
+//default offername goes here:;
+$offername = "Yukon Gold Casino";
+}
+
+//back-buttton
+$back-button = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GET['account'] . "&campaign=back-button" . "&adset=" . $_GET['adset'] . "&ad=" . $_GET['ad'] . "&lander=" . $_GET['lander'] . "&offername=" . $_GET['offername'];
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +49,8 @@
 
 </head>
 
-<body>
 
+<body>
 <div class="overlay-modal">
     <div class="intro-modal">
         <p class="gz">Congratulations!</p>
@@ -51,11 +78,14 @@
 </div>
 
 <!-- Navigation -->
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
 
     <div class="container">
 
-        <a class="navbar-brand" href="#">In The Know</a>
+        <a class="navbar-brand" href="#" style="color:#fff">In The Know</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,9 +128,8 @@
             </a>
 
             <!-- Title -->
-            <h1 class="mt-4">
-                Mom, 98, Moves Into Nursing Home To Look After 80-Year-Old Son Because “You Never Stop Being A Mum”
-            </h1>
+            <h1 class="mt-4">Mom, 98, Moves Into Nursing Home To Look After 80-Year-Old Son Because “You Never Stop
+                Being A Mum”</h1>
 
             <!-- Author -->
             <p class="lead">
@@ -119,13 +148,12 @@
             <hr>
 
             <!-- Post Content -->
-            <p>
-                No one understands this more than Ada Keating of Liverpool, England. Even at 96-years-old, she still
-                hasn’t
-                stopped being a mum to her children. Her 80-year-old son, Tom, recently moved into an assisted living
-                facility and shortly after, Ada, who was once a nurse, moved in as well—to care for her son. The two are
-                very happy with the arrangement and love being able to spend as much time together as possible.
-            </p>
+
+            <p>No one understands this more than Ada Keating of Liverpool, England. Even at 96-years-old, she still
+                hasn’t stopped being a mum to her children. Her 80-year-old son, Tom, recently moved into an assisted
+                living facility and shortly after, Ada, who was once a nurse, moved in as well—to care for her son. The
+                two are very happy with the arrangement and love being able to spend as much time together as
+                possible.</p>
 
             <div class="container_custom">
                 <div id="ad1">
@@ -147,8 +175,7 @@
                                     <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
                                        class="card__main-title">The Telegraph</a>
                                     <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                                       class="card__header-btn"><i class="fas fa-thumbs-up">
-                                    </i> Like page</a>
+                                       class="card__header-btn"><i class="fas fa-thumbs-up"></i> Like page</a>
                                 </div>
                                 <p class="card__main-desc">Trending &middot; <i class="fas fa-globe-americas"></i></p>
                             </div>
@@ -194,26 +221,15 @@
 
                         <div class="card__buttons">
                             <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                               class="card__like">
-                                <i class="far fa-thumbs-up"></i>
-                                Like
-                            </a>
+                               class="card__like"><i class="far fa-thumbs-up"></i> Like</a>
                             <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                               class="card__commentbtn">
-                                <i class="far fa-comment"></i>
-                                Comment
-                            </a>
+                               class="card__commentbtn"><i class="far fa-comment"></i> Comment</a>
                             <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                               class="card__share">
-                                <i class="fas fa-share"></i>
-                                Share
-                            </a>
+                               class="card__share"><i class="fas fa-share"></i> Share</a>
                         </div>
 
                         <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                           class="card__see-more-link">
-                            View previous comments
-                        </a>
+                           class="card__see-more-link">View previous comments</a>
                         <div class="card__comment">
                             <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
                                class="card__comment-avatar">
@@ -242,11 +258,9 @@
                                          alt="Comment Avatar">
                                 </a>
                                 <div class="card__comment-body">
-                                <span class="card__comment-content">
-                                    <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                                       class="card__comment-author">Benjamin Russo</a>
-                                    Getting a million dollars is easy! The problem is spending it responsibaly!
-                                </span>
+                                    <span class="card__comment-content"><a
+                                            href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
+                                            class="card__comment-author">Benjamin Russo</a>Getting a million dollars is easy! The problem is spending it responsibaly!</span>
                                 </div>
                                 <div class="card__comment-footer">
                                     <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
@@ -263,11 +277,9 @@
                                              alt="Comment Avatar">
                                     </a>
                                     <div class="card__comment-body">
-                                  <span class="card__comment-content">
-                                      <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
-                                         class="card__comment-author">Andrew Pelleteir</a>
-                                      SO TRUE!!! I had 5 million dollars in the bank and i blew it all on girls and boats!
-                                  </span>
+                                        <span class="card__comment-content"><a
+                                                href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
+                                                class="card__comment-author">Andrew Pelleteir</a>SO TRUE!!! I had 5 million dollars in the bank and i blew it all on girls and boats! </span>
                                     </div>
                                     <div class="card__comment-footer">
                                         <a href="http://t.tchnl.com/?account=&campaign=&adset=&ad=&lander=&offername="
@@ -300,24 +312,16 @@
                 </div>
             </div>
 
-            <p>
-                “I say goodnight to Tom in his room every night, and I’ll go and say good morning to him,” Ada said.
-                “When I
-                go out to the hairdressers he’ll look for me to see when I’m coming back. When I get back, he’ll come to
-                me
-                with his arms outstretched and give me a big hug.”
-            </p>
-            <p>
-                The manager of the care facility commented on the unique situation: “It’s very touching to see the close
+
+            <p>“I say goodnight to Tom in his room every night, and I’ll go and say good morning to him,” Ada said.
+                “When I go out to the hairdressers he’ll look for me to see when I’m coming back. When I get back, he’ll
+                come to me with his arms outstretched and give me a big hug.”</p>
+            <p>The manager of the care facility commented on the unique situation: “It’s very touching to see the close
                 relationship both Tom and Ada share and we are so pleased we were able to accommodate both of their
-                needs.
-                It’s very rare to see mothers and their children together in the same care home, and we certainly want
-                to
-                make their time together as special as possible.”
-            </p>
-            <p>
-                Watch the video below and please like and share this sweet story!
-            </p>
+                needs. It’s very rare to see mothers and their children together in the same care home, and we certainly
+                want to make their time together as special as possible.”</p>
+            <p>Watch the video below and please like and share this sweet story!</p>
+
 
             <div class="test">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/xbxb4Uzqbkk" frameborder="0"
@@ -400,8 +404,8 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for...">
                         <span class="input-group-btn">
-                                  <button class="btn btn-secondary" type="button">Go!</button>
-                                </span>
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
                     </div>
                 </div>
             </div>
@@ -457,7 +461,7 @@
                             We have the innovation obsessed culture and structure of a venture-backed tech company with
                             an engineering team focused on building the media platform for today’s world, and the
                             future.
-                        </small>
+                            </small>
                     </h6>
                 </div>
             </div>
@@ -483,9 +487,8 @@
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://landings-75c2.kxcdn.com/Landers/cb_arb/teen/js/scripts.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ion-sound/3.0.7/js/ion.sound.min.js"></script>
-
-<!--add main script-->
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/ion-sound/3.0.7/js/ion.sound.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
