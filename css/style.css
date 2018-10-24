@@ -556,7 +556,8 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    background: rgba(0, 0, 0, .6);
+    background-color: rgba(111, 110, 116, 0.7);
+    /*background-color: #001d32;*/
     color: #fff;
     padding: 10px;
     position: fixed ;
@@ -565,6 +566,7 @@ body {
 
 .banner p {
     margin: 5px 0;
+    text-shadow: 1px 1px black;
 }
 
 .banner_btn {
@@ -578,6 +580,10 @@ body {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+..banner_btn:hover{
+    text-shadow: 1px 1px black;
 }
 
 .move-up {
@@ -788,7 +794,7 @@ body {
     top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1000;
+    z-index: 500;
     background-image: url("../images/img10.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -827,7 +833,6 @@ body {
     color: #ffffff;
 }
 .btn-secondary-color:hover{
-    background-color: #005587;
     background-color: #001d32;
 }
 .footer-bg{
