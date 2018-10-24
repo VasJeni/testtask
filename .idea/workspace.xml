@@ -2,93 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc692ad4-a96f-4b05-abef-8f74fdde9b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24122018Morning.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Oct2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Oct2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/.idea/duplicate.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/Oct2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/._Oct2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/css/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/css/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/images/._pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/img/._avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/audio/alert.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/audio/alert.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/css/blog-post.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/money.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_357.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_370.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_373.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/images/yg_728x90_220518_ygoffer-en-usd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/js/clkickCether.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/money.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_357.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_370.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_373.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/yg_728x90_220518_ygoffer-en-usd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,16 +53,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2409" />
-          <entry key="html" value="1373" />
+          <entry key="css" value="2626" />
+          <entry key="html" value="1461" />
           <entry key="js" value="1852" />
           <entry key="txt" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2409" />
-          <entry key="HTML" value="1373" />
+          <entry key="CSS" value="2626" />
+          <entry key="HTML" value="1461" />
           <entry key="JavaScript" value="1852" />
           <entry key="PLAIN_TEXT" value="118" />
         </counts>
@@ -157,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Oct2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="329">
+              <caret line="524" column="35" lean-forward="true" selection-start-line="524" selection-start-column="35" selection-end-line="524" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -169,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
+            <state relative-caret-position="479">
+              <caret line="833" column="30" selection-start-line="833" selection-start-column="30" selection-end-line="833" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -209,16 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>boots</find>
-      <find>jq</find>
-      <find>\f064</find>
-      <find>card__share</find>
-      <find>f064</find>
-      <find>card__header</find>
-      <find>card__header-btn</find>
-      <find>fa</find>
-      <find>card__stats</find>
-      <find>card__shares</find>
       <find>background-po</find>
       <find>card__comment-content</find>
       <find>.card__comment</find>
@@ -234,11 +140,21 @@
       <find>i</find>
       <find>fas fa-share</find>
       <find>none</find>
-      <find>hidenelement</find>
       <find>video</find>
       <find>navbar navbar-expand-lg navbar-dark bg-dark fixed-top</find>
-      <find>navbar navbar-expand-lg navbar-dark</find>
       <find>navbar</find>
+      <find>navbar navbar-expand-lg navbar-dark</find>
+      <find>card-header</find>
+      <find>card my-4</find>
+      <find>btn btn-primary</find>
+      <find>nav-link</find>
+      <find>form-control-separate</find>
+      <find>form-control</find>
+      <find>btn btn-secondary</find>
+      <find>btn-cos</find>
+      <find>bg-dark</find>
+      <find>btn-secondary</find>
+      <find>hidenelement</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -258,8 +174,8 @@
         <option value="$PROJECT_DIR$/minversion/Oct2.html" />
         <option value="$PROJECT_DIR$/todo.txt" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/Oct2.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/Oct2.html" />
       </list>
     </option>
   </component>
@@ -394,18 +310,18 @@
       <workItem from="1540278023786" duration="5175000" />
       <workItem from="1540294161472" duration="4335000" />
       <workItem from="1540298953470" duration="6485000" />
-      <workItem from="1540365649896" duration="8162000" />
+      <workItem from="1540365649896" duration="11459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71036000" />
+    <option name="totallyTimeSpent" value="74333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,7 +333,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -491,6 +407,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="833" column="30" selection-start-line="833" selection-start-column="30" selection-end-line="833" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -500,18 +423,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Oct2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="18" />
+        <state relative-caret-position="329">
+          <caret line="524" column="35" lean-forward="true" selection-start-line="524" selection-start-column="35" selection-end-line="524" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
         </state>
       </provider>
     </entry>

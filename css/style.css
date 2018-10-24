@@ -589,6 +589,11 @@ body {
 .nav-link{
     color:white;
 }
+.nav-link:hover{
+    background-color: #001d32;
+    /*if need light color*/
+   /* background-color: #1b84a9;*/
+}
 
 .navbar {
     padding-top:0;
@@ -805,4 +810,26 @@ body {
 .playYoutube1:active,
 .playYoutube1:focus-within {
     outline: none;
+}
+
+.card-header-color {
+    background-color: #001d32;
+    color: #ffffff;
+}
+.list-unstyled li a{
+    color: #212529;
+}
+.form-control-separate{
+    margin-right: 10px;
+}
+.btn-secondary-color{
+    background-color: #005587;
+    color: #ffffff;
+}
+.btn-secondary-color:hover{
+    background-color: #005587;
+    background-color: #001d32;
+}
+.footer-bg{
+    background-color: #005587;
 }
