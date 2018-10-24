@@ -2,10 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc692ad4-a96f-4b05-abef-8f74fdde9b8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blog-post.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oct2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Oct2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Oct2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/.idea/duplicate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/Oct2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/._Oct2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/css/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/css/._style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/images/._pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/__MACOSX/img/._avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/audio/alert.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/audio/alert.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/css/blog-post.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/profileimgs/128_373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/images/yg_728x90_220518_ygoffer-en-usd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/js/clkickCether.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profileimgs/128_373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yg_728x90_220518_ygoffer-en-usd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,40 +103,52 @@
     <session id="1233277158">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="11" />
-          <entry key="gif" value="1" />
-          <entry key="html" value="1" />
-          <entry key="js" value="5" />
+          <entry key="css" value="17" />
+          <entry key="gif" value="2" />
+          <entry key="html" value="3" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="15" />
+          <entry key="js" value="9" />
+          <entry key="png" value="2" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="11" />
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="1" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="17" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="20" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="660" />
-          <entry key="html" value="613" />
-          <entry key="js" value="124" />
+          <entry key="css" value="2409" />
+          <entry key="html" value="1373" />
+          <entry key="js" value="1852" />
+          <entry key="txt" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="660" />
-          <entry key="HTML" value="613" />
-          <entry key="JavaScript" value="124" />
+          <entry key="CSS" value="2409" />
+          <entry key="HTML" value="1373" />
+          <entry key="JavaScript" value="1852" />
+          <entry key="PLAIN_TEXT" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -65,8 +160,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Oct2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="33" />
+            <state relative-caret-position="281">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +172,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="455" column="1" selection-start-line="455" selection-start-column="1" selection-end-line="455" selection-end-column="1" />
+            <state relative-caret-position="536">
+              <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -93,36 +209,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>card__like</find>
-      <find>!impo</find>
-      <find>card__comment-time</find>
-      <find>banner</find>
-      <find>impo</find>
-      <find>.banner-link img</find>
-      <find>.banner</find>
-      <find>import</find>
-      <find>.card__comment-time</find>
-      <find>body</find>
-      <find>card</find>
-      <find>hover</find>
-      <find>card__bg</find>
-      <find>card__likes</find>
-      <find>card__comment-children</find>
-      <find>@med</find>
-      <find>.card__comment-footer</find>
-      <find>border: none</find>
-      <find>.card__comment-input-reply</find>
-      <find>card__stats</find>
+      <find>boots</find>
+      <find>jq</find>
+      <find>\f064</find>
       <find>card__share</find>
-      <find>card__buttons</find>
-      <find>card__comment-footer</find>
-      <find>card__comment--input</find>
-      <find>.card__buttons</find>
-      <find>card__comment-avatar</find>
-      <find>banner-link</find>
-      <find>pops</find>
-      <find>.card__comment-avatar img</find>
-      <find>btn-container</find>
+      <find>f064</find>
+      <find>card__header</find>
+      <find>card__header-btn</find>
+      <find>fa</find>
+      <find>card__stats</find>
+      <find>card__shares</find>
+      <find>background-po</find>
+      <find>card__comment-content</find>
+      <find>.card__comment</find>
+      <find>card__comment-body</find>
+      <find>.card a</find>
+      <find>ytp-cued-thumbnail-overlay</find>
+      <find>card__comment-counter</find>
+      <find>test</find>
+      <find>pauseVideo</find>
+      <find>card</find>
+      <find>row</find>
+      <find>fa-share</find>
+      <find>i</find>
+      <find>fas fa-share</find>
+      <find>none</find>
+      <find>hidenelement</find>
+      <find>video</find>
+      <find>navbar navbar-expand-lg navbar-dark bg-dark fixed-top</find>
+      <find>navbar navbar-expand-lg navbar-dark</find>
+      <find>navbar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,12 +251,14 @@
         <option value="$PROJECT_DIR$/js/clkickCether.js" />
         <option value="$PROJECT_DIR$/js/test.js" />
         <option value="$PROJECT_DIR$/css/normal.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Oct2.html" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/css/tets.css" />
+        <option value="$PROJECT_DIR$/minversion/Oct2.html" />
+        <option value="$PROJECT_DIR$/todo.txt" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/Oct2.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -163,22 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +312,43 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="minversion" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="testtask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="minversion" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,6 +358,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,12 +383,23 @@
       <option name="presentableId" value="Default" />
       <updated>1539769128038</updated>
       <workItem from="1539769129206" duration="19738000" />
-      <workItem from="1539876232962" duration="2632000" />
+      <workItem from="1539876232962" duration="3218000" />
+      <workItem from="1539880108308" duration="6219000" />
+      <workItem from="1539938790386" duration="409000" />
+      <workItem from="1539950468566" duration="3154000" />
+      <workItem from="1540006520173" duration="3135000" />
+      <workItem from="1540009876366" duration="3910000" />
+      <workItem from="1540047943838" duration="107000" />
+      <workItem from="1540198717446" duration="6989000" />
+      <workItem from="1540278023786" duration="5175000" />
+      <workItem from="1540294161472" duration="4335000" />
+      <workItem from="1540298953470" duration="6485000" />
+      <workItem from="1540365649896" duration="8162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22370000" />
+    <option name="totallyTimeSpent" value="71036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -273,20 +424,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24972677" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.33333334" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,50 +452,66 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/main.min.css" />
     <entry file="file://$PROJECT_DIR$/js/test.js" />
+    <entry file="file://$PROJECT_DIR$/css/test.css" />
+    <entry file="file://$PROJECT_DIR$/index2.html" />
+    <entry file="file://$PROJECT_DIR$/css/blog-post.css" />
+    <entry file="file://$PROJECT_DIR$/css/tets.css" />
+    <entry file="file://$PROJECT_DIR$/images/camera.png" />
+    <entry file="file://$PROJECT_DIR$/images/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/money.png" />
+    <entry file="file://$PROJECT_DIR$/images/pic.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/yg_728x90_220518_ygoffer-en-usd.gif" />
+    <entry file="file://$PROJECT_DIR$/images/profileimgs/128_373.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/profileimgs/128_370.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/profileimgs/128_357.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/profileimgs/128_356.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/profileimgs/128_039.jpg" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" />
+    <entry file="file://$PROJECT_DIR$/minversion/Oct2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/clkickCether.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="-120">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test.css" />
-    <entry file="file://$PROJECT_DIR$/images/yg_728x90_220518_ygoffer-en-usd.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html" />
-    <entry file="file://$PROJECT_DIR$/css/blog-post.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tets.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Oct2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="33" />
+        <state relative-caret-position="281">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="455" column="1" selection-start-line="455" selection-start-column="1" selection-end-line="455" selection-end-column="1" />
+        <state relative-caret-position="536">
+          <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
         </state>
       </provider>
     </entry>

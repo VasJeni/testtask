@@ -42,6 +42,9 @@ body {
     color: #000;
     text-decoration: none
 }
+.card a:hover{
+    text-decoration: underline;
+}
 
 .card {
     background: #fff;
@@ -88,7 +91,7 @@ body {
     width: 45px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background-image: url(../img/avatar.png);
+    background-image: url(../images/img08.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -134,7 +137,7 @@ body {
     font-size: 13px;
     font-weight: 700;
     white-space: nowrap;
-    padding: 0 8px;
+    padding: 0 8px ;
     text-align: center;
     line-height: 24px;
     height: 28px;
@@ -143,7 +146,12 @@ body {
     align-self: center;
     -webkit-transition: .2s cubic-bezier(.08, .52, .52, 1) background;
     -o-transition: .2s cubic-bezier(.08, .52, .52, 1) background;
-    transition: .2s cubic-bezier(.08, .52, .52, 1) background
+    transition: .2s cubic-bezier(.08, .52, .52, 1) background;
+    position: relative;
+}
+.card__header-btn{
+    padding: 0 8px 0 30px;
+    position: relative;
 }
 
 .card__header-btn:hover,
@@ -200,8 +208,9 @@ body {
 
 .card__main-link-bottom:hover,
 .card__main-link-middle:hover,
-.card__main-link-top:hover {
-    text-decoration: none;
+.card__main-link-top:hover,
+.card__main-title{
+    text-decoration: underline;
     color: inherit
 }
 
@@ -268,7 +277,8 @@ body {
     line-height: 32px;
     opacity: .6;
     display: inline-block;
-    width: 30%
+    width: 30%;
+    position: relative;
 }
 
 .card__like:hover,
@@ -289,7 +299,7 @@ body {
 }
 
 .card__comment {
-    margin: 8px 0 0 0
+    margin: 8px 13px 0 0
 }
 
 .card__comment-avatar {
@@ -326,7 +336,8 @@ body {
 }
 
 .card__comment-content {
-    display: inline-block
+    display: inline-block;
+    position: relative;
 }
 
 .card__comment-footer {
@@ -581,7 +592,8 @@ body {
 
 .navbar {
     padding-top:0;
-    padding-bottom:0;
+    padding-bottom: 0;
+    background-color: #005587;
 }
 
 .lead {
@@ -599,27 +611,107 @@ body {
     width: 100%;
 }
 
+.fa-share{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -293px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-3em, -50%);
+}
+
+.fa-comment{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -19px -198px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-4em, -50%);
+}
+
+.fa-thumbs-up{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/sprite2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -318px -245px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-3em, -50%);
+}
+
+.fa-thumbs-up-black{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/sprite2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -204px -270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-3.1em, -50%);
+}
+
 
 .card__comment span a,
 .card__main-link-text .card__main-link-middle,
 .card__titles .card__main-title{
     color: #365899;
 }
-.card__comment span a,
-.card__main-link-text .card__main-link-middle,
-.card__titles .card__main-title{
-    text-decoration: none !important;
 
-}
-
-/* if need underline in link need uncomment
+/* if need underline in link need uncomment*/
 .card__comment-author:hover,
 .card__comment-footer a:hover,
 .card__shares:hover,
-.card__likes:hover {
+.card__likes:hover,
+.card__comment-counter:hover{
     text-decoration: underline;
 }
-*/
+
+.card .card__comment-counter,
+.card .card__shares{
+    color: #616770;
+}
+
+.card__comment-content--i-smile{
+    position: absolute;
+    font-size: 13px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding: 1px 3px;
+    border-radius: 25px;
+    display: inline-block;
+    top: 50%;
+    right: -30px;
+    color: #616770;
+}
+.card__comment-content--i-smile i {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/sprite.png");
+    background-position: 0 -388px;
+    padding-left: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
 
 /*media*/
 @media (min-width: 992px) {
@@ -640,4 +732,77 @@ body {
 @keyframes slideDown {
     0%   { top: 0; }
     100% { top: 40px; }
+}
+@-webkit-keyframes invisibility-animation {
+    0%   { visibility: visible;}
+    100% {
+        visibility: hidden;
+        z-index: -1;
+    }
+}
+@-moz-keyframes invisibility-animation {
+    0%   { visibility: visible ; }
+    100% {
+        visibility: hidden ;
+        z-index: -1;}
+}
+@keyframes invisibility-animation {
+    0%   { visibility: visible ; }
+    100% {
+        visibility: hidden;
+        z-index: -1;}
+}
+
+.invisibility-animation{
+    -webkit-animation-name: invisibility-animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: invisibility-animation;
+    animation-duration: 0.5s;
+    -moz-animation-name: invisibility-animation;
+    -moz-animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.videoblockWrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background: transparent;
+}
+
+.videoblock{
+    position: relative;
+}
+.playYoutube1 {
+    width: 70px;
+    height: 49px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-image: url("../images/img10.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    filter: grayscale(100%);
+    outline: none;
+    cursor: pointer;
+}
+.playYoutube1:hover{
+}
+
+.videoblock:hover .playYoutube1{
+    opacity: 1;
+    filter: none
+}
+.playYoutube1:focus,
+.playYoutube1:active,
+.playYoutube1:focus-within {
+    outline: none;
 }

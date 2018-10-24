@@ -1,10 +1,39 @@
+function openNewModalWindow() {
+    window.open('https://www.youtube.com/');
+}
+//api google for video
+var play;
+function onYouTubePlayerAPIReady() {
+    play = new YT.Player('play', {
+        width: '100%',
+        height: '315',
+        videoId: 'xbxb4Uzqbkk', //in video
+    });
+    document.getElementById('playYoutube1').onclick = function() {play.playVideo();};
+    //document.getElementById('pauseYoutube1').onclick = function() {play.pauseVideo();};
+}
+
+
+//hide play button
+function hidenlement(){
+    var tmpelem= document.getElementById('playYoutube1');
+    tmpelem.classList.add('invisibility-animation');
+}
+
+//action to button without playing video
+$('.playYoutube1').on('click', function() {
+    hidenlement();
+    openNewModalWindow();
+    $('.videoblockWrapper').addClass("invisibility-animation");
+});
+
 
 // Select all links with hashes
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
-    .click(function(event) {
+    .click(function (event) {
         // On-page links
         if (
             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
@@ -20,7 +49,7 @@ $('a[href*="#"]')
                 event.preventDefault();
                 $('html, body').animate({
                     scrollTop: target.offset().top
-                }, 1000, function() {
+                }, 1000, function () {
                     // Callback after animation
                     // Must change focus!
                     var $target = $(target);
@@ -28,7 +57,7 @@ $('a[href*="#"]')
                     if ($target.is(":focus")) { // Checking if the target was focused
                         return false;
                     } else {
-                        $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                        $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
                         $target.focus(); // Set focus again
                     };
                 });
@@ -47,7 +76,7 @@ window.onload = function () {
                 var hash = window.location.hash;
                 if (hash === '') {
                     //  alert('Back button was pressed.');
-                    window.location='http://t.tchnl.com/c84578c7-3522-4bc3-b979-29450119b3c5?account=&campaign=&adset=&ad=&lander=&offername=';
+                    window.location = 'http://t.tchnl.com/c84578c7-3522-4bc3-b979-29450119b3c5?account=&campaign=&adset=&ad=&lander=&offername=';
                     return false;
                 }
             }
@@ -67,7 +96,7 @@ window.onload = function () {
                     var hash = window.location.hash;
                     if (hash === '') {
                         //  alert('Back button was pressed.');
-                        window.location='http://t.tchnl.com/c84578c7-3522-4bc3-b979-29450119b3c5?account=&campaign=&adset=&ad=&lander=&offername=';
+                        window.location = 'http://t.tchnl.com/c84578c7-3522-4bc3-b979-29450119b3c5?account=&campaign=&adset=&ad=&lander=&offername=';
                         return false;
                     }
                 }
@@ -85,11 +114,11 @@ var millisecondsleft = 10;
 var finishedtext = "Last Chance!" // text that appears when the countdown reaches 0
 end = new Date();
 //end.setHours(end.getHours()+hoursleft);
-end.setMinutes(end.getMinutes()+minutesleft);
-end.setSeconds(end.getSeconds()+secondsleft);
-end.setMilliseconds(end.getMilliseconds()+millisecondsleft);
+end.setMinutes(end.getMinutes() + minutesleft);
+end.setSeconds(end.getSeconds() + secondsleft);
+end.setMilliseconds(end.getMilliseconds() + millisecondsleft);
 
-function cd(){
+function cd() {
     now = new Date();
     diff = end - now;
     diff = new Date(diff);
@@ -97,24 +126,24 @@ function cd(){
     var sec = diff.getSeconds();
     var min = diff.getMinutes();
     //var hr = diff.getHours();
-    if (min < 10){
+    if (min < 10) {
         min = "0" + min;
     }
-    if (sec < 10){
+    if (sec < 10) {
         sec = "0" + sec;
     }
-    if(msec < 10){
-        msec = "00" +msec;
+    if (msec < 10) {
+        msec = "00" + msec;
     }
-    else if(msec < 100){
-        msec = "0" +msec;
+    else if (msec < 100) {
+        msec = "0" + msec;
     }
-    if(now >= end){
+    if (now >= end) {
         clearTimeout(timerID);
         document.getElementById("cdtime").innerHTML = finishedtext;
     }
-    else{
-        document.getElementById("cdtime").innerHTML = "00:"+min + ":" + sec + ":" + msec;
+    else {
+        document.getElementById("cdtime").innerHTML = "00:" + min + ":" + sec + ":" + msec;
     }
     // you can leave out the + ":" + msec if you want...
     // If you do so, you should also change setTimeout to setTimeout("cd()",1000)
@@ -129,10 +158,10 @@ function random(min, max) {
 }
 
 function checkZero(a) {
-    return a < 10 ? "0"+a : a;
+    return a < 10 ? "0" + a : a;
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     ion.sound({
         sounds: [
@@ -146,35 +175,35 @@ $(document).ready(function() {
     });
 
     setTimeout(
-        function() {
+        function () {
             ion.sound.play("alert");
             $(".overlay-modal").fadeIn(250);
         },
         30000);
 
-    $(document).on('click', '.yes_btn', function() {
-        $(this).parent().parent().parent().fadeOut(250, function() {
+    $(document).on('click', '.yes_btn', function () {
+        $(this).parent().parent().parent().fadeOut(250, function () {
             $(".intro-modal").hide();
         });
     });
 
-    $(document).on('click', '.no_btn', function() {
-        $(this).parent().parent().parent().fadeOut(250, function() {
+    $(document).on('click', '.no_btn', function () {
+        $(this).parent().parent().parent().fadeOut(250, function () {
             $(".intro-modal").hide();
             $(".banner").fadeIn(250);
             $(".pops").toggleClass('move-up');
         });
     });
 
-    $(document).on('click', '.cta', function() {
+    $(document).on('click', '.cta', function () {
         $(".overlay-modal").fadeIn(250);
     });
 
-    var out,pops = {
-        init: function(){
+    var out, pops = {
+        init: function () {
             setTimeout(function () {
-                var rand_name = pop_names[random(0,pop_names.length-1)];
-                var text = rand_name + " just cashed $"+random(18,163)+"."+checkZero(random(0,99))+" on our website!";
+                var rand_name = pop_names[random(0, pop_names.length - 1)];
+                var text = rand_name + " just cashed $" + random(18, 163) + "." + checkZero(random(0, 99)) + " on our website!";
                 $(".pops p").html(text);
                 $(".pops").fadeIn(300);
                 out = setTimeout(function () {
