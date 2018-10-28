@@ -1,10 +1,6 @@
-//create window for new link
-/*function openNewModalWindow() {
+function createredirectWindow() {
     window.open('https://www.youtube.com/');
-}*/
-function createredirectWindow(){
-        $('.redirectLink')[0].click();
-    }
+}
 
 //function for new video
 var x = document.getElementById("myVideo");
@@ -28,51 +24,7 @@ function playPause() {
 
 $('.pauseVideo').on('click', function () {
     playPause();
-    /*setTimeout(createredirectWindow, 1000);*/
 });
-
-/*$('.playVideo').on('click', function () {
-    playVid();
-    /!*setTimeout(createredirectWindow, 1000);*!/
-});*/
-
-
-
-/*
-var reflink = document.createElement("a");
-    reflink.classList.add("redirectLink");
-    $('.redirectLink').attr("href",'target');
-    var parrent = document.getElementsByClassName('videoblock');
-    parrent.appendChild(reflink);
-*/
-
-
-//api google for video
-/*var play;
-function onYouTubePlayerAPIReady() {
-    play = new YT.Player('play', {
-        width: '100%',
-        height: '315',
-        videoId: 'xbxb4Uzqbkk', //in video
-    });
-    document.getElementById('playYoutube1').onclick = function() {play.playVideo();};
-    //document.getElementById('pauseYoutube1').onclick = function() {play.pauseVideo();};
-}
-
-
-//hide play button
-function hidenlement(){
-    var tmpelem= document.getElementById('playYoutube1');
-    tmpelem.classList.add('invisibility-animation');
-}
-
-//action to button without playing video
-$('.playYoutube1').on('click', function() {
-    hidenlement();
-    openNewModalWindow();
-    $('.videoblockWrapper').addClass("invisibility-animation");
-});*/
-
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -105,7 +57,8 @@ $('a[href*="#"]')
                     } else {
                         $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
                         $target.focus(); // Set focus again
-                    };
+                    }
+                    ;
                 });
             }
         }
