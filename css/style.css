@@ -551,39 +551,41 @@ body {
 }
 
 .banner {
-    display: none;
+    display: block;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
-    background-color: rgba(111, 110, 116, 0.7);
-    /*background-color: #001d32;*/
+    background: rgba(50, 48, 52, 0.7);
     color: #fff;
-    padding: 10px;
     position: fixed ;
     z-index: 999;
+    padding: 25px 0;
 }
 
 .banner p {
     margin: 5px 0;
-    text-shadow: 1px 1px black;
 }
 
 .banner_btn {
     background: #eb6768;
-    height: 25px;
-    line-height: 25px;
     font-size: 16px;
     text-transform: uppercase;
     outline: none;
     border: none;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
-    box-shadow: 2px 2px 2px black;
 }
-..banner_btn:hover{
-    text-shadow: 1px 1px black;
+
+.banner_btn-second{
+    color: #616770;
+    background-color: white;
+}
+.banner__btn-white{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .move-up {
@@ -724,46 +726,6 @@ body {
     top: 2px;
 }
 
-/*media*/
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
-}
-
-/* ANIMATIONS */
-@-webkit-keyframes slideDown {
-    0%   { top: 0; }
-    100% { top: 40px; }
-}
-@-moz-keyframes slideDown {
-    0%   { top: 0; }
-    100% { top: 40px; }
-}
-@keyframes slideDown {
-    0%   { top: 0; }
-    100% { top: 40px; }
-}
-@-webkit-keyframes invisibility-animation {
-    0%   { visibility: visible;}
-    100% {
-        visibility: hidden;
-        z-index: -1;
-    }
-}
-@-moz-keyframes invisibility-animation {
-    0%   { visibility: visible ; }
-    100% {
-        visibility: hidden ;
-        z-index: -1;}
-}
-@keyframes invisibility-animation {
-    0%   { visibility: visible ; }
-    100% {
-        visibility: hidden;
-        z-index: -1;}
-}
-
 .invisibility-animation{
     -webkit-animation-name: invisibility-animation; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
@@ -787,14 +749,15 @@ body {
 .videoblock{
     position: relative;
 }
-.playYoutube1 {
+
+.playYoutube1,
+.playVideo{
     width: 70px;
     height: 49px;
     position: absolute;
     top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 500;
     background-image: url("../images/img10.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -808,13 +771,18 @@ body {
 .playYoutube1:hover{
 }
 
-.videoblock:hover .playYoutube1{
+.videoblock:hover .playYoutube1,
+.videoblock:hover .playVideo {
     opacity: 1;
     filter: none
 }
 .playYoutube1:focus,
 .playYoutube1:active,
-.playYoutube1:focus-within {
+.playYoutube1:focus-within,
+.playVideo:focus,
+.playVideo:active,
+.playVideo:focus-within
+{
     outline: none;
 }
 
@@ -838,3 +806,132 @@ body {
 .footer-bg{
     background-color: #005587;
 }
+
+#playpause {
+    background:#eee;
+    color:#333;
+    padding:0 5px;
+    font-size:12pt;
+    text-transform:uppercase;
+    width:50px;
+}
+#controls span {
+    display:inline-block;
+}
+
+#myVideo{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.banner_btn,
+.banner > p{
+    display: inline-block;
+    padding: 10px;
+}
+.banner_btn{
+    text-transform: capitalize;
+    line-height: 2em;
+}
+/*.banner_btn-second{
+    padding: 10px 15px 8px 15px;
+}*/
+
+/*media*/
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+@media screen and (max-width: 571px) {
+    .banner {
+        padding: 10px 0;
+    }
+    .banner_btn,
+    .banner__btn-white,
+    .banner p {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .banner p{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes slideDown {
+    0%   { top: 0; }
+    100% { top: 40px; }
+}
+@-moz-keyframes slideDown {
+    0%   { top: 0; }
+    100% { top: 40px; }
+}
+@keyframes slideDown {
+    0%   { top: 0; }
+    100% { top: 40px; }
+}
+
+@-webkit-keyframes invisibility-animation {
+    0%   {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+
+    }
+}
+@-moz-keyframes invisibility-animation {
+    0%   { visibility: visible ; }
+    100% {
+        visibility: hidden ;
+    }
+}
+@keyframes invisibility-animation {
+    0%   { visibility: visible ; }
+    100% {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes visibility-animation {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes visibility-animation {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes visibility-animation {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.visible-animation{
+    -webkit-animation-name: visibility-animation;
+    -moz-animation-name: visibility-animation;
+    -o-animation-name: visibility-animation;
+    animation-name: visibility-animation;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+.pauseVideo{
+    display: block;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    z-index: 3;
+}
+

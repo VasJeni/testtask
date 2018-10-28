@@ -1,8 +1,54 @@
-function openNewModalWindow() {
+//create window for new link
+/*function openNewModalWindow() {
     window.open('https://www.youtube.com/');
+}*/
+function createredirectWindow(){
+        $('.redirectLink')[0].click();
+    }
+
+//function for new video
+var x = document.getElementById("myVideo");
+
+function playVid() {
+    x.play();
 }
+
+function pauseVid() {
+    x.pause();
+}
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else {
+        myVideo.pause();
+        setTimeout(createredirectWindow, 1000);
+    }
+}
+
+$('.pauseVideo').on('click', function () {
+    playPause();
+    /*setTimeout(createredirectWindow, 1000);*/
+});
+
+/*$('.playVideo').on('click', function () {
+    playVid();
+    /!*setTimeout(createredirectWindow, 1000);*!/
+});*/
+
+
+
+/*
+var reflink = document.createElement("a");
+    reflink.classList.add("redirectLink");
+    $('.redirectLink').attr("href",'target');
+    var parrent = document.getElementsByClassName('videoblock');
+    parrent.appendChild(reflink);
+*/
+
+
 //api google for video
-var play;
+/*var play;
 function onYouTubePlayerAPIReady() {
     play = new YT.Player('play', {
         width: '100%',
@@ -25,7 +71,7 @@ $('.playYoutube1').on('click', function() {
     hidenlement();
     openNewModalWindow();
     $('.videoblockWrapper').addClass("invisibility-animation");
-});
+});*/
 
 
 // Select all links with hashes
@@ -66,6 +112,7 @@ $('a[href*="#"]')
     });
 
 window.onload = function () {
+
     if (window.history && window.history.pushState) {
 
         window.onpopstate = function () {

@@ -74,7 +74,8 @@ $back-button = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GE
 <div class="banner">
     <button class="banner_btn">Obtener Accesso Instante</button>
     <p>a Bitcoin Trader Para El Siguiente</p>
-    <button class="banner_btn">04:35</button>
+    <!--<button class="banner_btn banner_btn-second">04:37</button>-->
+    <button class="btn banner__btn-white">3:25</button>
 </div>
 
 <!-- Navigation -->
@@ -325,16 +326,61 @@ $back-button = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GE
                 needs. It’s very rare to see mothers and their children together in the same care home, and we certainly
                 want to make their time together as special as possible.”</p>
             <p>Watch the video below and please like and share this sweet story!</p>
-
+<!--
             <div class="videoblock">
                 <div id="play"></div>
                 <div class="videoblockWrapper"></div>
                 <button id="playYoutube1"  class="playYoutube1"></button>
-                <!--hide pause button-->
-                <!--<button id="pauseYoutube1" class="btn btn-danger">пауза </button>-->
+                &lt;!&ndash;hide pause button&ndash;&gt;
+                &lt;!&ndash;<button id="pauseYoutube1" class="btn btn-danger">пауза </button>&ndash;&gt;
             </div>
-            <!--close video-->
+            &lt;!&ndash;close video&ndash;&gt;
+            <hr>-->
+
+          <!--  <video width="400" height="300" controls="controls" poster="video/duel.jpg">-->
+
+          <!--  <div id="video-container">
+                &lt;!&ndash; Video &ndash;&gt;
+                <video id="video" width="640" height="365">
+
+                    <source src="video/v01.mp4" type="video/mp4">
+                    <p>
+                        Your browser doesn't support HTML5 video.
+                        <a href="video/v01.mp4">Download</a> the video instead.
+                    </p>
+                </video>
+                &lt;!&ndash; Video Controls &ndash;&gt;
+                <div id="video-controls">
+                    <button type="button" id="play-pause">Play</button>
+                    <input type="range" id="seek-bar" value="0">
+                    <button type="button" id="mute">Mute</button>
+                    <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+                    <button type="button" id="full-screen">Full-Screen</button>
+                </div>
+            </div> -->
+                        <!--<p>Click the buttons to play or pause the video.</p>-->
+
+            <!--<button onclick="playVid()" type="button">Play Video</button>-->
+            <!--<button onclick="pauseVid()" type="button">Pause Video</button>-->
+
+            <!--<button class="playVideo" type="button">Play Video</button>-->
+            <!--  <button class="pauseVideo" type="button">Pause Video</button>-->
+
+
+
+            <div class="videoblock">
+                <video id="myVideo"  poster="//img.youtube.com/vi/xbxb4Uzqbkk/mqdefault.jpg">
+                    <source id="mp4_src" src="video/v01.mp4" type="video/mp4">
+                </video>
+              <!--  <button class="playVideo _z-3" type="button"></button>-->
+                <button class="pauseVideo _z-3" type="button">play/pause</button>
+
+        </div>
+
+
+
             <hr>
+
 
         <!-- Comments Form -->
         <div class="card my-4">
@@ -490,6 +536,7 @@ $back-button = "http://t.tchnl.com/click/" . "?cep=" . $cep . "&account=" . $_GE
     </div>
     <!-- /.container -->
 </footer>
+<a href="https://www.youtube.com/" class="redirectLink d-none" target="_blank">test test test</a>
 
 <!-- Bootstrap core JavaScript -->
 
